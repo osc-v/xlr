@@ -1,0 +1,11 @@
+[package]
+name = "interface"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["lib", "cdylib", "staticlib"]
+
+
+[dependencies]
+flutter_rust_bridge = "1"
